@@ -1,0 +1,113 @@
+<!-- ========================================== -->
+<!-- FOOTER INSTITUCIONAL - MUNICIPIO GASPAR MARCANO
+     Cumple con:
+     - Ley de Infogobierno (Transparencia)
+     - Ley de Protección de Datos (Políticas de Privacidad)
+     - Ley Orgánica de Turismo (Promoción del destino)
+     - Plan de la Patria 7T (Alianzas estratégicas)
+     - Accesibilidad WCAG 2.1 (Contraste y etiquetas)
+     - Integración SERIMUN (Portal Contribuyente)
+     ========================================== -->
+<footer class="site-footer mt-5 pt-4" style="background-color: #0A2472; color: #ffffff;">
+    <div class="container">
+        <!-- Fila 1: Logo, Enlaces Rápidos y Contacto -->
+        <div class="row g-4 py-4">
+            <!-- Columna 1: Identidad Municipal -->
+            <div class="col-md-4">
+                <div class="footer-logo mb-3">
+                    <img src="/assets/img/escudo_municipio.png" alt="Escudo del Municipio Gaspar Marcano" height="70" class="bg-white rounded p-1">
+                    <h5 class="d-inline-block ms-3 text-white">Municipio Gaspar Marcano<br><small class="text-white-50">Juan Griego - Nueva Esparta</small></h5>
+                </div>
+                <p class="small text-white-50">
+                    "Tierra de historia, mar y tradición. Comprometidos con las <strong>7 Transformaciones (7T)</strong> 
+                    para el desarrollo turístico y social de nuestro pueblo."
+                </p>
+                <!-- Botón de Portal Contribuyente (Enlace a SERIMUN) -->
+                <a href="http://localhost/gasparmarcano-sitioweb/public/index.php" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="btn btn-outline-light btn-sm mt-2"
+                   aria-label="Ir al Portal del Contribuyente SERIMUN">
+                   <i class="bi bi-box-arrow-up-right"></i> Portal del Contribuyente
+                </a>
+            </div>
+
+            <!-- Columna 2: Enlaces de Interés (Ley de Infogobierno) -->
+            <div class="col-md-4">
+                <h6 class="text-uppercase mb-3 fw-bold" style="color: #4ECDC4;">Enlaces Oficiales</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="/transparencia.php" class="text-white-50 text-decoration-none hover-link">🔍 Transparencia (SERIMUN)</a></li>
+                    <li class="mb-2"><a href="/noticias.php" class="text-white-50 text-decoration-none hover-link">📰 Noticias y Boletines</a></li>
+                    <li class="mb-2"><a href="/eventos.php" class="text-white-50 text-decoration-none hover-link">📅 Calendario de Eventos</a></li>
+                    <li class="mb-2"><a href="/documentos.php" class="text-white-50 text-decoration-none hover-link">📄 Gacetas y Ordenanzas</a></li>
+                    <li class="mb-2"><a href="/turismo.php" class="text-white-50 text-decoration-none hover-link">🏝️ Portal Turístico (Ley Orgánica de Turismo)</a></li>
+                    <li class="mb-2"><a href="/inversionistas.php" class="text-white-50 text-decoration-none hover-link">💰 Oportunidades de Inversión</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Contacto y Redes Sociales -->
+            <div class="col-md-4">
+                <h6 class="text-uppercase mb-3 fw-bold" style="color: #4ECDC4;">Contacto y Atención</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <i class="bi bi-geo-alt-fill"></i> 
+                        Calle Bolívar, Casa Municipal, Juan Griego, Edo. Nueva Esparta
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-telephone-fill"></i> 
+                        +58 (295) 123-4567
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-envelope-fill"></i> 
+                        <a href="mailto:contacto@municipiogaspar.gob.ve" class="text-white-50 text-decoration-none">contacto@municipiogaspar.gob.ve</a>
+                    </li>
+                </ul>
+                <div class="social-links mt-3">
+                    <a href="#" class="text-white me-3" aria-label="Facebook"><i class="bi bi-facebook fs-5"></i></a>
+                    <a href="#" class="text-white me-3" aria-label="Instagram"><i class="bi bi-instagram fs-5"></i></a>
+                    <a href="#" class="text-white me-3" aria-label="Twitter"><i class="bi bi-twitter fs-5"></i></a>
+                    <a href="#" class="text-white" aria-label="YouTube"><i class="bi bi-youtube fs-5"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Línea divisoria -->
+        <hr class="bg-white-50">
+
+        <!-- Fila 2: Políticas y Créditos (Ley de Protección de Datos) -->
+        <div class="row pb-3">
+            <div class="col-md-6 text-center text-md-start small text-white-50">
+                © <?php echo date('Y'); ?> Alcaldía del Municipio Gaspar Marcano. 
+                Todos los derechos reservados. | 
+                <a href="/politicas-privacidad.php" class="text-white-50 text-decoration-none">Políticas de Privacidad</a> | 
+                <a href="/terminos-uso.php" class="text-white-50 text-decoration-none">Términos de Uso</a>
+            </div>
+            <div class="col-md-6 text-center text-md-end small text-white-50">
+                Desarrollado bajo la <strong>Ley de Infogobierno</strong> y el <strong>Plan de la Patria 7T</strong>.<br>
+                Optimizado para accesibilidad <strong>WCAG 2.1 (Nivel AA)</strong>.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Estilos adicionales para hover y accesibilidad -->
+<style>
+    .hover-link:hover {
+        color: #4ECDC4 !important;
+        text-decoration: underline !important;
+        transition: all 0.3s ease;
+    }
+    .site-footer a:focus-visible {
+        outline: 2px solid #4ECDC4;
+        outline-offset: 2px;
+        border-radius: 4px;
+    }
+    .btn-outline-light:hover {
+        background-color: #4ECDC4 !important;
+        border-color: #4ECDC4 !important;
+        color: #0A2472 !important;
+    }
+</style>
+
+<!-- Bootstrap Icons (si no los tiene instalados, agregue este CDN en el header) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">

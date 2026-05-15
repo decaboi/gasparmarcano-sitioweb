@@ -1,0 +1,16 @@
+municipio.gob.ve/
+├── public/
+│   ├── index.php              # Front Controller (Router)
+│   ├── .htaccess              # Reglas de reescritura (URLs amigables)
+│   └── assets/                # CSS/JS/Imágenes optimizadas
+├── admin/                     # Panel de Control (Backend)
+│   ├── index.php              # Dashboard
+│   ├── login.php
+│   └── crud/                  # Módulos (noticias, eventos, docs)
+├── src/
+│   ├── Controllers/           # Lógica de negocio
+│   ├── Models/                # Interacción con MySQL
+│   ├── Views/                 # Plantillas HTML (Header, Footer, Home)
+│   └── Core/                  # Router, Database, Session
+├── uploads/                   # (PDFs, Fotos, Galerías)
+└── sql/                       # Scripts de instalación

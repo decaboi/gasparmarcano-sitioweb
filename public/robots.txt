@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /cron/
+Disallow: /uploads/tmp/
+
+Sitemap: http://localhost/gasparmarcano-sitioweb/public/sitemap.xml
